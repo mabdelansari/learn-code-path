@@ -24,7 +24,7 @@ const useOnlineCourses = () => {
   const apiURL = process.env.API_ENDPOINT;
 
   useEffect(() => {
-    const fetchCourses = async () => {
+    const fetchData = async () => {
       if (token) {
         try {
           const response = await fetch(`${apiURL}/courses`, {
@@ -54,7 +54,7 @@ const useOnlineCourses = () => {
       }
     };
 
-    fetchCourses();
+    fetchData();
   }, [apiURL, token]);
 
   return {
