@@ -6,7 +6,7 @@ Welcome to the courses latform Learn Code Path! This web application provides an
 
 ## Client dir
 
-1. Clone the repository: `git clone https://github.com/mostabdel07/learn-code-path.git`
+1. Clone the repository: `git clone https://github.com/mabdelansari/learn-code-path.git`
 2. Install dependencies in client dir: `npm install`
 3. Configure environment variables in api dir: Create a `.env.local` file and set the api call endpoint.
 4. Start the server client server: `npm run dev`
@@ -20,18 +20,11 @@ Welcome to the courses latform Learn Code Path! This web application provides an
 5. Execute the `.sql` script in api/scripts/ dir to fill the database with data.
 6. Start the server api server: `php artisan serve`
 
-## Production Server
-
-Server name: <SERVER_NAME>
-IP: <SERVER_IP>
-User: <SERVER_USER>
-Password: <SERVER_PASSWORD>
-
 ## Production Installation
 
 ## Client dir
 
-1. Clone the repository: `git clone https://github.com/mostabdel07/learn-code-path.git`
+1. Clone the repository: `git clone https://github.com/mabdelansari/learn-code-path.git`
 2. Install dependencies in client dir: `npm install`
 3. Configure environment variables in api dir: Create a `.env.local` file and set the api call endpoint.
 4. Execute a build using `npm run build`
